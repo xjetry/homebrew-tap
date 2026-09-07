@@ -1,27 +1,27 @@
 class X2socks < Formula
   desc "Local SOCKS5 manager based on Xray Core"
   homepage "https://github.com/xjetry/xray2socks"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/xjetry/xray2socks/releases/download/v0.2.0/x2socks-darwin-amd64"
-      sha256 "3f4d69fb40064adf57afb308fafef01ea098cd1c396602147e0ed2b9c98a763a"
+      url "https://github.com/xjetry/xray2socks/releases/download/v0.3.0/x2socks-darwin-amd64"
+      sha256 "e927529e374d597bd70540b298744275e27de945ddf65cb7627c96200f02e43f"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/xjetry/xray2socks/releases/download/v0.2.0/x2socks-darwin-arm64"
-      sha256 "9b0115b47038a9557b20f8315d2fd85583f4ff4675600107ef08d41159024dac"
+      url "https://github.com/xjetry/xray2socks/releases/download/v0.3.0/x2socks-darwin-arm64"
+      sha256 "e7097d74b7c757ecfa1d854e21c53d18cba5f1c6b020a7cdad3a4c37e9a770ed"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/xjetry/xray2socks/releases/download/v0.2.0/x2socks-linux-amd64"
-      sha256 "aa4376244175d0da5eb4a0224a5cf3abb13218cefae7872ef0b46c0fbbc889a3"
+      url "https://github.com/xjetry/xray2socks/releases/download/v0.3.0/x2socks-linux-amd64"
+      sha256 "35e0768ba5aed37cae63183f47fe23d8dbfed45a44f7b7f642c2ec1668338937"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/xjetry/xray2socks/releases/download/v0.2.0/x2socks-linux-arm64"
-      sha256 "ae5b2b98f79cbc8b072ffa44789dbc7715384a448c357116865c6caf36a57edc"
+      url "https://github.com/xjetry/xray2socks/releases/download/v0.3.0/x2socks-linux-arm64"
+      sha256 "4175069b54fc183908fed1a3489baf876f3e41f969939396a532ab2b859f1917"
     end
   end
 
